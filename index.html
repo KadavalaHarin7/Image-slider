@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Image Slider</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="slider-container">
+        <div class="slider">
+            <div class="slide" data-caption="Machu Picchu" data-description="The ancient Inca city in Peru.">
+                <img src="./assets/1.jpeg" alt="Machu Picchu">
+            </div>
+            <div class="slide" data-caption="Eiffel Tower" data-description="A global cultural icon of France.">
+                <img src="./assets/2.jpeg" alt="Eiffel Tower">
+            </div>
+            <div class="slide" data-caption="Grand Canyon" data-description="A breathtaking natural wonder.">
+                <img src="./assets/3.jpeg" alt="Grand Canyon">
+            </div>
+        </div>
+
+        <button class="prev" onclick="prevSlide()">&#10094;</button>
+        <button class="next" onclick="nextSlide()">&#10095;</button>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
